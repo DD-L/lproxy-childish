@@ -50,6 +50,8 @@ lproxy -p port [-l clientIpList] [-c code]
                 不指定列表表示允许所有ip.
 -c[可选]        code        : proxy显示的编码,默认为 UTF-8.
 </code></pre>
+
+
 > ### lproxy-childish 特性
 >>
 * 轻量级HTTP代理服务器
