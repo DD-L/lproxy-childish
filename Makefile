@@ -5,8 +5,8 @@ SRC = ./src
 BIN = ./bin
 TMP = ./tmp
 
-CFLAGS = -c -Wall -I. -D_DEBUG
-#CFLAGS = -c -Wall -I.
+#CFLAGS = -c -Wall -I. -D_DEBUG
+CFLAGS = -c -Wall -I.
 COMPILE = $(CC) $(CFLAGS) $^ -o $(TMP)/$@
 
 lproxy: init proxy
