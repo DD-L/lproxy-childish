@@ -6,8 +6,8 @@
 
 ### Platform
 
-* linux
-* cygwin
+* Linux
+* Cygwin
 
 ### 依赖库
 
@@ -15,7 +15,7 @@
 * pthread
 
 
-### lproxy-childish 使用方法
+### lproxy-childish 编译与使用
 
 #### 1. 源码编译:
 
@@ -32,7 +32,7 @@ $ cd bin
 $ ./lproxy port # or './proxy port' 
 ```
 
-#### 3. options:
+#### 3. Usage:
 
 ```shell
 $ ./proxy port
